@@ -5,3 +5,7 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/account_db
+      
+services:
+  customer:
+    url: http://localhost:8081
