@@ -9,9 +9,9 @@ spring:
 
 services:
   account:
-    url: http://localhost:8082
+    url: http://account-service
   credit:
-    url: http://localhost:8083
+    url: http://credit-service
 
 business:
   fixed-term-day: 15

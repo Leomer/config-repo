@@ -9,4 +9,4 @@ spring:
 
 services:
   customer:
-    url: http://localhost:8081
+    url: http://customer-service
