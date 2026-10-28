@@ -14,7 +14,10 @@ business:
   min-opening-fixed-term: 100
   free-transactions: 5
   transaction-fee: 1.50
+  vip-minimum-daily-average: 500
 
 services:
   customer:
     url: http://customer-service
+  credit:
+    url: http://credit-service
