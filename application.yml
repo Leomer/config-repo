@@ -9,3 +9,10 @@ eureka:
       defaultZone: http://localhost:8761/eureka
   instance:
     prefer-ip-address: true
+
+resilience:
+  timeout-seconds: 2
+  sliding-window-size: 10
+  minimum-calls: 5
+  failure-rate-threshold: 50
+  wait-open-seconds: 10
