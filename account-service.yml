@@ -9,6 +9,11 @@ spring:
 business:
   savings-movement-limit: 10
   checking-maintenance-fee: 10.00
+  min-opening-savings: 0
+  min-opening-checking: 50
+  min-opening-fixed-term: 100
+  free-transactions: 5
+  transaction-fee: 1.50
 
 services:
   customer:
