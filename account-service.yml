@@ -5,7 +5,11 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/account_db
-      
+
+business:
+  savings-movement-limit: 10
+  checking-maintenance-fee: 10.00
+
 services:
   customer:
     url: http://localhost:8081
