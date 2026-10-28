@@ -23,3 +23,7 @@ spring:
               uri: lb://transaction-service
               predicates:
                 - Path=/transactions/**
+            - id: report-service
+              uri: lb://report-service
+              predicates:
+                - Path=/reports/**

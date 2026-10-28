@@ -1,0 +1,6 @@
+server:
+  port: 8085
+
+services:
+  transaction:
+    url: http://transaction-service
