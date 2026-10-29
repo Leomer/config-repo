@@ -6,6 +6,9 @@ spring:
     uri: mongodb://localhost:27017/credit_db
     auto-index-creation: true
 
+business:
+  default-due-days: 30
+
 services:
   customer:
     url: http://customer-service
