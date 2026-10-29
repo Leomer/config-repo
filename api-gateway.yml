@@ -27,3 +27,7 @@ spring:
               uri: lb://report-service
               predicates:
                 - Path=/reports/**
+            - id: auth-service
+              uri: lb://auth-service
+              predicates:
+                - Path=/auth/**

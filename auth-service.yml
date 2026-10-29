@@ -1,0 +1,13 @@
+server:
+  port: 8086
+
+spring:
+  mongodb:
+    uri: mongodb://localhost:27017/auth_db
+  data:
+    mongodb:
+      auto-index-creation: true
+
+security:
+  jwt:
+    expiration-minutes: 60

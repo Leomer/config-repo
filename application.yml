@@ -16,3 +16,7 @@ resilience:
   minimum-calls: 5
   failure-rate-threshold: 50
   wait-open-seconds: 10
+
+security:
+  jwt:
+    secret: change-this-secret-key-to-at-least-32-characters-long
