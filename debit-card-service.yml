@@ -7,3 +7,7 @@ spring:
   data:
     mongodb:
       auto-index-creation: true
+  kafka:
+    consumer:
+      group-id: debit-card-service
+      auto-offset-reset: earliest
