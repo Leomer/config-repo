@@ -1,0 +1,9 @@
+server:
+  port: 8088
+
+spring:
+  mongodb:
+    uri: mongodb://localhost:27017/yanki_db
+  data:
+    mongodb:
+      auto-index-creation: true
