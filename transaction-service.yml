@@ -5,6 +5,10 @@ spring:
   mongodb:
     uri: mongodb://localhost:27017/transaction_db
     auto-index-creation: true
+  kafka:
+    consumer:
+      group-id: transaction-service
+      auto-offset-reset: earliest
 
 services:
   account:
