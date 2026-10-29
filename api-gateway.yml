@@ -31,3 +31,7 @@ spring:
               uri: lb://auth-service
               predicates:
                 - Path=/auth/**
+            - id: debit-card-service
+              uri: lb://debit-card-service
+              predicates:
+                - Path=/debit-cards/**
