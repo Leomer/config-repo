@@ -2,9 +2,8 @@ server:
   port: 8082
 
 spring:
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/account_db
+  mongodb:
+    uri: mongodb://localhost:27017/account_db
 
 business:
   savings-movement-limit: 10
